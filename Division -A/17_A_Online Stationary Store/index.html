@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <form action="#">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">billing address</h3>
+
+                <div class="inputBox">
+                    <span>full name :</span>
+                    <input type="text" pattern="[a-z]" required>
+                </div>
+                <div class="inputBox">
+                    <span>email :</span>
+                    <input type="email" pattern="[a-z]{1,15}" required>
+                </div>
+                <div class="inputBox">
+                    <span>address :</span>
+                    <input type="text" required>
+                </div>
+                <div class="inputBox">
+                    <span>city :</span>
+                    <input type="text" pattern="[a-z]" required>
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>state :</span>
+                        <input type="text" pattern="[a-z]" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>zip code :</span>
+                        <input type="text" maxlength="6" pattern="[0-9]" required>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">payment</h3>
+
+                <div class="inputBox">
+                    <span>name on card holder :</span>
+                    <input type="text" pattern="[a-z]" required>
+                </div>
+                <div class="inputBox">
+                    <span>credit card number :</span>
+                    <input type="text" 
+                    maxlength="16" 
+                    pattern="[0-9]" required>
+                </div>
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>expiry :</span>
+                        <input type="text" maxlength="05" pattern="[0-9]" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="text" maxlength="3" pattern="[0-9]" required>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <a href="sucess.html">proceed to pay</a>
+
+    </form>
+
+</div>
+
+</body>
+</html>

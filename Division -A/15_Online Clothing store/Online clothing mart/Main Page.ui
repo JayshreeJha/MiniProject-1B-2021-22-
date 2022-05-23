@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2000</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1959</width>
+         <height>2018</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>2000</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(172, 196, 232);</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QPushButton" name="men">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>610</y>
+             <width>651</width>
+             <height>341</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../images/Mens.png</normaloff>../images/Mens.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>650</width>
+             <height>650</height>
+            </size>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="women">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>610</y>
+             <width>621</width>
+             <height>341</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../images/womens.png</normaloff>../images/womens.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>650</width>
+             <height>650</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="accessories">
+           <property name="geometry">
+            <rect>
+             <x>1300</x>
+             <y>610</y>
+             <width>611</width>
+             <height>341</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../images/acessories.png</normaloff>../images/acessories.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>650</width>
+             <height>650</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>90</y>
+             <width>741</width>
+             <height>401</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../images/up to 50-60% off!.png</normaloff>../images/up to 50-60% off!.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>500</width>
+             <height>1000</height>
+            </size>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit">
+           <property name="geometry">
+            <rect>
+             <x>530</x>
+             <y>80</y>
+             <width>851</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="placeholderText">
+            <string>SEARCH</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label">
+           <property name="geometry">
+            <rect>
+             <x>630</x>
+             <y>540</y>
+             <width>721</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 italic 24pt &quot;Times New Roman&quot;;
+background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;~The Joy of Dressing is an Art&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_2">
+           <property name="geometry">
+            <rect>
+             <x>830</x>
+             <y>1020</y>
+             <width>281</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 italic 26pt &quot;Times New Roman&quot;;
+font: 75 italic 28pt &quot;Times New Roman&quot;;
+background-color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:26pt; font-weight:600; font-style:italic;&quot;&gt;#Best Sellers&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_12">
+           <property name="geometry">
+            <rect>
+             <x>90</x>
+             <y>1160</y>
+             <width>331</width>
+             <height>491</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../Best Sellers/7 Fashion Items I'm Giving Away Before the End of the Year.jpg</normaloff>../Best Sellers/7 Fashion Items I'm Giving Away Before the End of the Year.jpg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>500</width>
+             <height>500</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_13">
+           <property name="geometry">
+            <rect>
+             <x>530</x>
+             <y>1160</y>
+             <width>331</width>
+             <height>491</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../Best Sellers/fab78dc2-9300-479d-bf4d-50cd4c8d95f2.jpg</normaloff>../Best Sellers/fab78dc2-9300-479d-bf4d-50cd4c8d95f2.jpg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>500</width>
+             <height>500</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_14">
+           <property name="geometry">
+            <rect>
+             <x>970</x>
+             <y>1160</y>
+             <width>351</width>
+             <height>491</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../Best Sellers/High Waist Straight Jeans - L _ color 4.jpg</normaloff>../Best Sellers/High Waist Straight Jeans - L _ color 4.jpg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>550</width>
+             <height>530</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_15">
+           <property name="geometry">
+            <rect>
+             <x>1430</x>
+             <y>1160</y>
+             <width>331</width>
+             <height>501</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../Best Sellers/Chain.jpg</normaloff>../Best Sellers/Chain.jpg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>500</width>
+             <height>540</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="geometry">
+            <rect>
+             <x>1660</x>
+             <y>80</y>
+             <width>51</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../Downloads/feather (1)/heart.svg</normaloff>../../../Downloads/feather (1)/heart.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_6">
+           <property name="geometry">
+            <rect>
+             <x>1730</x>
+             <y>80</y>
+             <width>51</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../Downloads/feather (1)/shopping-cart.svg</normaloff>../../../Downloads/feather (1)/shopping-cart.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="login">
+           <property name="geometry">
+            <rect>
+             <x>1800</x>
+             <y>80</y>
+             <width>51</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../Downloads/feather (1)/log-in.svg</normaloff>../../../Downloads/feather (1)/log-in.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_9">
+           <property name="geometry">
+            <rect>
+             <x>760</x>
+             <y>210</y>
+             <width>561</width>
+             <height>281</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../Downloads/offerpic2.png</normaloff>../../../Downloads/offerpic2.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>600</width>
+             <height>600</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_8">
+           <property name="geometry">
+            <rect>
+             <x>1470</x>
+             <y>150</y>
+             <width>271</width>
+             <height>421</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../Downloads/Holi special.png</normaloff>../../../Downloads/Holi special.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>450</width>
+             <height>450</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_3">
+           <property name="geometry">
+            <rect>
+             <x>770</x>
+             <y>20</y>
+             <width>391</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 75 28pt &quot;Times New Roman&quot;;</string>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;POCKET FASHION&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_4">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>111</width>
+             <height>91</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>../../../Downloads/pf.png</pixmap>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_10">
+           <property name="geometry">
+            <rect>
+             <x>1400</x>
+             <y>80</y>
+             <width>51</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../Downloads/feather (1)/search.svg</normaloff>../../../Downloads/feather (1)/search.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="admin">
+           <property name="geometry">
+            <rect>
+             <x>1740</x>
+             <y>20</y>
+             <width>111</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+           </property>
+           <property name="text">
+            <string>ADMIN</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../../../Downloads/feather (1)/log-in.svg</normaloff>../../../Downloads/feather (1)/log-in.svg</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

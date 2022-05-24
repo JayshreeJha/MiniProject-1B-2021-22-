@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>horror/h4.jpg</file>
+    <file>horror/h3.jpg</file>
+    <file>horror/h2.jpg</file>
+    <file>horror/h1.jpg</file>
+    <file>mystery/m1.jpg</file>
+    <file>mystery/m4.jpg</file>
+    <file>mystery/m3.png</file>
+    <file>mystery/m2.jpg</file>
+    <file>scifi/sc4.jpg</file>
+    <file>scifi/sc3.jpg</file>
+    <file>scifi/sc2.jpg</file>
+    <file>scifi/sc1.jpg</file>
+    <file>spiri/s4.jpg</file>
+    <file>spiri/s3.jpg</file>
+    <file>spiri/s2.jpg</file>
+    <file>spiri/s1.jpg</file>
+  </qresource>
+</RCC>
